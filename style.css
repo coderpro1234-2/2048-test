@@ -1,0 +1,67 @@
+body {
+  text-align: center;
+  overscroll-behavior: none;
+}
+.disable-select {
+  user-select: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+.title {
+  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+  color: #776e65;
+}
+.big-title {
+  font-size: 48px;
+  margin: 5px;
+  display:inline-block;
+}
+.score {
+  margin-top: 5px;
+}
+.notext {
+  font-size: 0%;
+}
+.game-button {
+  width: 65px;
+  height: 65px;
+  border: none;
+  border-radius: 5px;
+  margin: 2px;
+  font-size: large;
+}
+.back {
+  width: max-content;
+  text-align: center;
+  background-color: #bbada0;
+  padding: 8px;
+  margin:0 auto;
+  border-radius: 5px;
+}
+.mobile-button {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 5px;
+  margin: 2px;
+  font-size: large;
+  color: #776e65;
+  background-color: #cdc1b4;
+}
+.retry {
+  font-size: 23px;
+  color: #f9f6f2;
+  background-color: #776e65;
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  bottom: 8px;
+  padding: 7px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  display:inline-block;
+  margin-left:15px;
+}
